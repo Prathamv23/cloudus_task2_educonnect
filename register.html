@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register form</title>
+        <link href="css/register.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar-main">
+                <img src="images/logo.png" alt="EduConnect logo">
+                <div class="main-nav">
+                    <a href="index.html">Home</a>
+                    <a href="">Courses</a>
+                    <a href="register.html" target="_blank">Register</a>
+                    <a href="">Company</a>
+                    <a href="">About</a>
+                </div>
+                <div class="search-nav">
+                    <input type="search" placeholder="Search">
+                </div>
+                <div class="auth-nav">
+                    <a href="" class="login">Login</a>
+                    <a href="" class="signup">Sign-up</a>
+                </div>
+            </nav>
+        </header>
+        <main>
+        <form class="form-register">
+            <fieldset>
+                <legend>Register Form</legend>
+
+                <section class="form-field">
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter full name" required>
+                </section>
+                
+                <section class="form-field">
+                <label>Email</label>
+                <input type="email" placeholder="your@gmail.com" required>
+                </section>
+                
+                <section class="form-field">
+                <label>Password</label>
+                <input type="password" required>
+                </section>
+
+                <section class="form-field">
+                <label>Confirm password</label>
+                <input type="password" required>
+                </section>
+
+                <section class="form-field">
+                <label>Phone number</label>
+                <input type="number" required>
+                </section>
+                 
+                <section class="form-field">
+                <label>Education level</label>
+                <select required>
+                    <option>Select</option>
+                    <option>10th</option>
+                    <option>12th</option>
+                    <option>Under Graduate</option>
+                    <option>Graduate</option>
+                    <option>Post Graduate</option>
+                </select>
+                </section>
+                
+                <section class="form-field">
+                <label>Course selection</label>
+                <select required>
+                    <option>Python</option>
+                    <option>Data science</option>
+                    <option>Web development</option>
+                    <option>Backend development</option>
+                    <option>Frontend development</option>
+                    <option>Full-stack development</option>
+                    <option>Ui/ux designer</option>
+                    <option>Laravel development</option>
+                    <option>AI development</option>
+                    <option>Machine learning</option>
+                    <option>Deep learning</option>
+                    <option>Internet of things(IOT)</option>
+                </select>
+                </section>
+
+                <section class="form-field">
+                <label>Date of birth</label>
+                <input type="date">
+                </section>
+
+                <section class="form-field">
+                <input type="checkbox" required>
+                <label>Terms and condition</label>
+                </section>
+                
+                
+                <section class="form-btn">
+                <button type="reset" class="reset">Reset</button>
+                <button type="submit" class="submit">Submit</button>
+                </section>
+            </fieldset>
+        </form>
+        </main>
+    </body>
+</html>
