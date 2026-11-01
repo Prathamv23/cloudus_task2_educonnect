@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>EduConnect</title>
-        <link rel="stylesheet" href="style.css">        
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="stylesheet" href="css/navbar.css">       
     </head>
     <body>
         <header>
@@ -11,8 +12,8 @@
                 <div class="main-nav">
                     <a href="index.html">Home</a>
                     <a href="">Courses</a>
-                    <a href="register.html" target="_blank">Register</a>
-                    <a href="">Company</a>
+                    <a href="register.html">Register</a>
+                    <a href="">Contact</a>
                     <a href="">About</a>
                 </div>
                 <div class="search-nav">
@@ -38,17 +39,41 @@
         </div>
         
         <section class="courses-section">
+            <div class="section-title">
             <h2>Explore Our Courses</h2>
+            </div>
 
             <div class="responsive">
 
                 <section class="courses-card">
-                    <a href="#">
+                    <a href="course_details_page.html">
                         <img src="images/python.png" alt="Python programming course">
                     </a>
                     <div class="descr">
                         <h3>Python Programming</h3>
                         <p>Learn Python from the fundamentals.</p>
+                        
+                        <div class="star-rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star empty">☆</span>
+                        </div>
+                        <div class="time-mode">
+                            <div class="time">
+                            <label>&#128197;</label>
+                            <h4>4 weeks</h4>
+                            </div>
+                            <div class="mode">
+                            <label>&#128304;</label>
+                            <h4>Beginner</h4>
+                            </div>
+                        </div> 
+                        <div class="price-btn">
+                        <label class="price">$50</label>
+                        <a href="course_details_page.html">Enroll</a>
+                        </div>
                     </div>
                 </section>
 
@@ -59,6 +84,28 @@
                     <div class="descr">
                         <h3>Web Development</h3>
                         <p>Build modern websites from scratch.</p>
+                        
+                        <div class="star-rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">&#11240</span>
+                            <span class="star empty">☆</span>
+                        </div>
+                        <div class="time-mode">
+                            <div class="time">
+                            <label>&#128197;</label>
+                            <h4>4 weeks</h4>
+                            </div>
+                            <div class="mode">
+                            <label>&#128304;</label>
+                            <h4>Beginner</h4>
+                            </div>
+                        </div> 
+                        <div class="price-btn">
+                        <label class="price">$50</label>
+                        <a href="">Enroll</a>
+                        </div>
                     </div>
                 </section>
 
@@ -69,6 +116,28 @@
                     <div class="descr">
                         <h3>Data Science</h3>
                         <p>Discover insights from data.</p>
+                        
+                        <div class="star-rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">☆</span>
+                            <span class="star empty">☆</span>
+                        </div>
+                        <div class="time-mode">
+                            <div class="time">
+                            <label>&#128197;</label>
+                            <h4>4 weeks</h4>
+                            </div>
+                            <div class="mode">
+                            <label>&#128304;</label>
+                            <h4>Beginner</h4>
+                            </div>
+                        </div> 
+                        <div class="price-btn">
+                        <label class="price">$50</label>
+                        <a href="">Enroll</a>
+                        </div>
                     </div>
                 </section>
 
@@ -79,30 +148,136 @@
                     <div class="descr">
                         <h3>Artificial Intelligence</h3>
                         <p>Explore AI concepts and applications.</p>
+                        
+                        <div class="star-rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star empty">★</span>
+                        </div>
+                        <div class="time-mode">
+                            <div class="time">
+                            <label>&#128197;</label>
+                            <h4>4 weeks</h4>
+                            </div>
+                            <div class="mode">
+                            <label>&#128304;</label>
+                            <h4>Beginner</h4>
+                            </div>
+                        </div> 
+                        <div class="price-btn">
+                        <label class="price">$50</label>
+                        <a href="">Enroll</a>
+                        </div>
                     </div>
+
                  </section>
             </div>
-        </section>    
+        </section>
+        
+        <section class="main-categories">
+                <div class="section-title">
+                    <h2>Course Categories</h2>
+                </div>
+                <section class="categories">
+                    <div class="avatar">
+                        <img src="images/python_logo.png" class="av-img">
+                        <h4>Coding</h4>
+                    </div>
+                    <div class="avatar">
+                        <img src="images/data_science_logo.png" class="av-img">
+                        <h4>Data Science</h4>
+                    </div>
+                    <div class="avatar">
+                        <img src="images/design_logo.png" class="av-img">
+                        <h4>Ui/Ux</h4>
+                    </div>
+                    <div class="avatar">
+                        <img src="images/digital_m_logo.png" class="av-img">
+                        <h4>Digital Marketing</h4>
+                    </div>
+                </section>
+        </section>
+
+        <section class="instructors-section">
+
+            <div class="section-title">
+                    <h2>Featured Instructors</h2>
+            </div>
+
+            <div class="our-instructors">
+
+                <article class="ins-card">
+                    <a href="instructor_page.html">
+                    <img src="images/av_1.png" alt="John Smith">
+                    </a>
+                    <div class="ins-details">
+                        <h3>John Smith</h3>
+                        <p>Web Development</p>
+                        <p class="instructor-rating">★ 4.9 (2.3K)</p>
+                        
+                    </div>
+                
+                </article>
+
+                <article class="ins-card">
+                    <img src="images/av_2.png" alt="Sarah Johnson">
+                    <div class="ins-details">
+                        <h3>Sarah Johnson</h3>
+                        <p>Data Science</p>
+                        <p class="instructor-rating">★ 4.8 (1.8K)</p>
+                    </div>
+                </article>
+
+                <article class="ins-card">
+                    <img src="images/av_3.png" alt="Michael Chen">
+                    <div class="ins-details">
+                        <h3>Michael Chen</h3>
+                        <p>UI/UX Design</p>
+                        <p class="instructor-rating">★ 4.7 (1.5K)</p>
+                    </div>
+                </article>
+
+                <article class="ins-card">
+                    <img src="images/av_4.png" alt="Emily Davis">
+                    <div class="ins-details">
+                        <h3>Emily Davis</h3>
+                        <p>Digital Marketing</p>
+                        <p class="instructor-rating">★ 4.6 (1.2K)</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
         <footer>
-            <img src="images/logo.png">
-            <p>Empowering learners worldwide with quality education and practicle skills</p>
-            <div class="quick-links">
-                <a>Home</a>
-                <a>Courses</a>
-                <a>Register</a>
-                <a>Company</a>
-                <a>About</a>
+            <div class="footer-part">
+                <div class="logo-footer">
+                    <img src="images/logo.png">
+                    <p>Empowering learners worldwide with quality education and practicle skills</p>
+                </div>
+                <div class="quick-links">
+                    <h3>Quick links</h3>
+                    <a>Home</a>
+                    <a>Courses</a>
+                    <a>Register</a>
+                    <a>Company</a>
+                    <a>About</a>
+                </div>
+                <div class="support-link">
+                   <h3>Support Links</h3> 
+                    <a>Help center</a>
+                    <a>FAQ</a>
+                    <a>Terms of services</a>
+                    <a>Privacy Policy</a>
+                </div>
             </div>
-            <div class="support-link">
-                <a>Help center</a>
-                <a>FAQ</a>
-                <a>Terms of services</a>
-                <a>Privacy Policy</a>
-            </div>
-            <hr>
-            <div class="copyright">
-            <title>EduConnect &copy; 2026</title>
-            </div>
+                <hr>
+                <div class="copyright">
+                    <p>EduConnect &copy; 2026</p>
+                </div>
+            
         </footer>    
     </body>
 </html>
